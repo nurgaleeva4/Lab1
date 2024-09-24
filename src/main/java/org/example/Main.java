@@ -5,8 +5,8 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
 
-        // System.out.println(fizzBuzz(500));
-        System.out.println(reverse("make install"));
+        // System.out.println(divisibility(500));
+        System.out.println(inverted("make install"));
 
     }
 

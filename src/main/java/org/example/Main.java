@@ -10,7 +10,7 @@ public class Main {
 
     }
 
-    public static ArrayList<String> fizzBuzz(int n) {
+    public static ArrayList<String> divisibility(int n) {
 
         ArrayList<String> list = new ArrayList<>();
 
@@ -28,7 +28,7 @@ public class Main {
         return list;
     }
 
-    public static String reverse(String input) {
+    public static String inverted(String input) {
 
         char[] chars = input.toCharArray();
         String str = "";
@@ -60,7 +60,7 @@ public class Main {
         return list;
     }
 
-    public static double seriesSum() {
+    public static double SumOfTheSeries() {
 
         ArrayList<String> list = new ArrayList<>();
 

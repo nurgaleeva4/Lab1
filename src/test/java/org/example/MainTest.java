@@ -10,9 +10,9 @@ import static org.junit.jupiter.api.Assertions.*;
 class MainTest {
 
     @Test
-    void fizzbuzz() {
+    void divisibility() {
         int n = 1;
-        List<String> list = Main.fizzBuzz(n);
+        List<String> list = Main.divisibility(n);
         List<String> expected = new ArrayList<>();
         expected.add("1");
 
@@ -20,10 +20,10 @@ class MainTest {
     }
 
     @Test
-    void reverse() {
+    void inverted() {
         String expected = "llatsni ekam";
 
-        assertEquals(expected, Main.reverse("make install"));
+        assertEquals(expected, Main.inverted("make install"));
     }
 
 
@@ -40,9 +40,9 @@ class MainTest {
     }
 
     @Test
-    void seriesSum() {
+    void SumOfTheSeries() {
 
-        double res = Main.seriesSum();
+        double res = Main.SumOfTheSeries();
         double expected = 0.6101121094474383;
 
         assertEquals(expected, res);
